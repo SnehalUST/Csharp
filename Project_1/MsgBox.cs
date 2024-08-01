@@ -10,9 +10,18 @@ namespace Project_1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("Hello, UST!");
-            Console.WriteLine("This is 2 program");
+            int Number1 , Number2;
+            Console.WriteLine("Enter Number 1");
+            Number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Number 2");
+            Number2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write(Number1+"and ");
+            Console.Write(Number2);
+
+
+
+
         }
     }
 }
