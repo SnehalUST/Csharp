@@ -8,7 +8,7 @@ namespace Project_1
 {
     internal class MsgBox
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             int Number1 , Number2;
             Console.WriteLine("Enter Number 1");
